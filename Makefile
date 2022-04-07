@@ -12,7 +12,7 @@ LDFLAGS =
 
 EXTRA_TARGETS = EBOOT.PBP
 PSP_EBOOT_TITLE = PSP Remote 0.02 
-PSP_EBOOT_ICON=/usr/local/pspdev/psp/sdk/samples/irda/ps2remote/Remote_Icon.png
+PSP_EBOOT_ICON= Remote_Icon.png
 
 PSPSDK=$(shell psp-config --pspsdk-path)
 include $(PSPSDK)/lib/build.mak
